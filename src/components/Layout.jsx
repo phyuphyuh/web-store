@@ -13,6 +13,9 @@ const Layout = ({ children }) => {
             <li>
               <Link className='menuItem' to="/">Home</Link>
             </li>
+             <li>
+              <Link className='menuItem' to="/profile">Profile</Link>
+            </li>
             {!isLoading && isAuthenticated && (
               <li>
                 <button className="menuitem" onClick={logout}>
