@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  functions = "functions"
+  functions = "netlify/functions"
 
 [dev]
   framework = "vite"
@@ -9,4 +9,4 @@
   port = 8888
   targetPort = 5173
   publish = "dist"
-  functions = "functions"
+  functions = "netlify/functions"

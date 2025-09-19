@@ -10,12 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.5.0",
+    "@serverless-jwt/netlify": "^0.2.1",
     "@stripe/react-stripe-js": "^4.0.2",
     "@stripe/stripe-js": "^7.9.0",
     "dotenv": "^17.2.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.1",
+    "stripe": "^18.5.0",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
